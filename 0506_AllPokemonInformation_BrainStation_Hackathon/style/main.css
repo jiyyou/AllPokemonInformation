@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.user {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.user__input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.user__button {
+  background-color: black;
+  color: white;
+  width: 50%;
+  padding: 0.5rem 1rem;
+}
+
+.pokecard {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.pokecard__name {
+  text-transform: capitalize;
+  font-size: 1.25rem;
+}
+.pokecard__type {
+  text-transform: capitalize;
+  font-size: 1.25rem;
+}
+.pokecard__image {
+  width: 70%;
+}
+
+body {
+  padding-top: 100px;
+  background-image: url("pokeback.jpg");
+}
+
+.pokedex {
+  margin-top: 100px;
+  height: 500px;
+  width: 800px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF601A;
+}
+.pokedex__image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black;
+}
+
+.poke2 {
+  padding: 20px 20px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul, li {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  line-height: 1.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
